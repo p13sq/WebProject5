@@ -1,0 +1,26 @@
+
+body {
+  background-color: #0ABAB5; /* Tiffany Blue */
+  color: #ffffff;            /* White text */
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  text-align: center;
+  padding: 50px;
+  margin: 0;
+  
+}
+
+.video-box {
+  border: 4px solid red;      /* Red box border */
+  padding: 15px;              /* Space between video and border */
+  margin: 40px auto;          /* Space between video boxes, centered */
+  width: 85%;
+  max-width: 850px;
+  box-sizing: border-box;     /* Ensures padding/border don't overflow width */
+}
+
+iframe {
+  width: 100%;
+  height: 450px;
+  border: none;
+}
